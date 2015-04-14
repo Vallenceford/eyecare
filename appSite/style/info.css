@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* info CSS Document */
+/*
+rood: 
+#d54833
+lichtrood: 
+#e37a6e
+geel:
+#ffd43f
+*/
+/*ingewikkeld hee ;)*/
+main>section>section {
+    margin: 1em 0;
+}
+main>section>section p{margin: 1em 0;}
+/*eerste section*/
+
+main>section p + section {
+    position: relative;
+}
+
+main>section p + section>img {
+    width: 100%;
+}
+/*tweede section*/
+
+main>section p + section + section {
+    /*position: absolute;*/
+    
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row;
+    -webkit-flex-flow: row;
+}
+
+main>section p + section + section>img {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    /*position: absolute;*/
+    
+    flex: 1;
+    flex-grow: 2;
+    -webkit-flex: 1;
+    -webkit-flex-grow: 2;
+}
+
+main>section p + section + section>section {
+    flex: 1;
+    -webkit-flex: 1;
+}
+
+main>section p + section + section>section h2 {
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+}
+
+main>section p + section + section>section h3 {
+    text-align: center;
+    padding:0.1em;
+    margin: 0.1em 0;
+}
+
+main>section p + section + section>section p {
+    text-align: center;
+}

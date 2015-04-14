@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* quiz CSS Document */
+/*
+rood: 
+#d54833
+lichtrood: 
+#e37a6e
+geel:
+#ffd43f
+*/
+main nav#mainNav_normaal{
+    display: none;
+}
+
+main section nav#mainNav_normaal {
+    display: flex;
+    left: 0;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main section nav#mainNav_normaal a{
+    margin: 0 auto;
+    padding:0.8em 1.3em;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+@media (max-width: 540px){
+ main section nav#mainNav_normaal a{
+        font-size: 1em;
+        padding-left: 0.3em 0.5em;
+        /*display: inline;*/
+    }
+}

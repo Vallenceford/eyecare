@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* quizNext CSS Document */
+/*
+rood: 
+#d54833
+lichtrood: 
+#e37a6e
+geel:
+#ffd43f
+*/
+
+nav,
+nav img,
+nav section {
+    display: none;
+}
+
+main {
+    margin: 0 2%;
+}
+
+main section {
+    padding-left: 0;
+}

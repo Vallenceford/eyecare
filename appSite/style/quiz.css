@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* quiz CSS Document */
+/*
+rood: 
+#d54833
+lichtrood: 
+#e37a6e
+geel:
+#ffd43f
+*/
+
+main section a[href$='quizNext.php'] {
+    display: table;
+    text-align: center;
+    /*margin: 0 calc(auto - 3.5em);*/
+    background-color: #d54833;
+    color: white;
+    margin: 2em 2em 2em 0;
+    padding: 1em;
+}
+
+main section a[href$='quizNext.php']:hover {
+    background-color: #EAB600;
+}
+
+main section a[href$='quizNext.php']:active {
+    background-color: #ffd43f;
+    transition: ease-in-out 0s;
+}
+
+main section section {
+    width: 100%;
+    background-color: #e37a6e;
+    margin:auto;
+    max-width: 500px;
+    padding:1em;
+}
+
+main section section img {
+    width: 100%;
+}
+
+main section section form {
+    position: relative;
+    top: -3px;
+}
+
+main section section form input {
+    width: calc(100% - 3.5em);
+    height: 2em;  
+    float: left;
+    text-align: center;
+}
+
+main section section form button {
+    width: 3.5em;
+    height: 2em;
+    background-color: #ffd43f;
+    color: white;
+    cursor: pointer;
+
+}
