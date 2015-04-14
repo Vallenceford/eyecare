@@ -269,7 +269,7 @@ footer a#footerA_mail {
     transform: translateY(-50%);
 }
 
-footer>p {
+footer p {
     text-align: center;
     position: absolute;
     /*height: 1em;*/
@@ -285,7 +285,6 @@ footer a {
 footer nav {
     float: right;
     margin: 0 2em 0 0;
-    background-color: white;
 }
 
 footer nav a {

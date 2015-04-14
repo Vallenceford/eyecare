@@ -34,10 +34,10 @@
         <img src="media/img/logo.jpg" alt="Eye care foundation">
     </a>
         <nav>
-            <a href="index.php">Home</a>
-            <a href="#">Zoeken</a>
-            <a href="#">Profiel</a>
-            <a href="#">Aanmelden</a>
+            <a href="quizstart.php">Home</a>
+            <a href="info.php">Zoeken</a>
+            <a href="info.php">Aanmelden</a>
+            <a href="info.php">profiel</a>
         </nav>
     </header>
 
@@ -50,7 +50,7 @@
                 <a href="info.php">Zoeken</a>
                 <section>
                     <a href="#">Aanmelden</a>
-                    <a href="#">profiel</a>
+                    <a href="#">Profiel</a>
                 </section>
             </section>
         </nav>
