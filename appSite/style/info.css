@@ -9,10 +9,14 @@ geel:
 #ffd43f
 */
 /*ingewikkeld hee ;)*/
+
 main>section>section {
     margin: 1em 0;
 }
-main>section>section p{margin: 1em 0;}
+
+main>section>section p {
+    margin: 1em 0;
+}
 /*eerste section*/
 
 main>section p + section {
@@ -58,10 +62,16 @@ main>section p + section + section>section h2 {
 
 main>section p + section + section>section h3 {
     text-align: center;
-    padding:0.1em;
+    padding: 0.1em;
     margin: 0.1em 0;
 }
 
 main>section p + section + section>section p {
     text-align: center;
+}
+
+@media (max-width: 600px) {
+    main>section p + section + section>img {
+        display: none;
+    }
 }
