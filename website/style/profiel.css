@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*
+rood: 
+#d54833
+lichtrood: 
+#e37a6e
+geel:
+#ffd43f
+*/
+
+main>section>section {
+    background-color:#000;
+/*    padding: 0 0 1em 0;*/
+    margin: 5em 0 0 0;
+    max-width: 800px;
+    display: flex;
+    
+}
+main>section>section>div>img {
+    width: 100%;
+}
+main>section>section>div>a {
+    width: 100%;
+    color: #34609D;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin: 0.5em 0
+}
+main>section>section>div>a:hover {
+    text-decoration: underline;
+}
+main>section>section>div {
+/*    width: 33.33%;*/
+    background-color: #eee;
+/*    float: left;*/
+    flex: 1;
+}
+main>section>section>section {
+    float: right;
+/*    width: 66.66%;*/
+    background-color: #eee;
+    flex: 2;
+}
+main>section>section>section>h2 {
+    margin-top: 0;
+}
+main>section>section>section>b {
+/*    font-weight: bold;*/
+    font-family: 'header';
+    padding: 0 3.5em;
+    color: white;
+}
+
+main>section>section>section>b:after{
+content: ":";
+}
+
+main>section>section>section>p {
+    margin: 0.4em 4em;
+    color: white;
+}
