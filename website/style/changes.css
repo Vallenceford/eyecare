@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*
+rood: 
+#d54833
+lichtrood: 
+#e37a6e
+geel:
+#ffd43f
+*/
+
+main nav#mainNav_mobiel section section a {
+    width: 50%;
+}
+header nav a:nth-child(3),
+header nav a:nth-child(4) {
+    text-align: right;
+    display: block;
+    float: right;
+}
