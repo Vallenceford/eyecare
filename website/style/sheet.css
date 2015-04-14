@@ -1,5 +1,5 @@
 #bord {
-    width:700px;
+    width:100%;
     height:auto;
     position:relative;
 }
@@ -35,7 +35,7 @@
 .topic .onderwerp span {
     font-weight: bold;
     text-align: right; 
-    float:right;
+    display: block;
 }
 
 .topic ul.reacties {
