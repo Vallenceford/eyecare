@@ -47,7 +47,7 @@
             </li>
                     
             
-            <li class="reageren">
+            <li class="r">
                  <button type="button">Reageren</button> 
             </li>
         </ul>
@@ -92,7 +92,7 @@
             </li>
                     
             
-            <li class="reageren">
+            <li class="r">
                  <button type="button">Reageren</button> 
             </li>
         </ul>

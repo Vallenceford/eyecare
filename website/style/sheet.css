@@ -10,6 +10,11 @@
     margin: 0 auto;
 }
 
+.topic {
+    height:auto;
+    margin-bottom:20px;
+}
+
 .topic h2 {
     font-size:30px;
     padding:10px;
@@ -52,7 +57,7 @@
     min-height: 150px;
 }
 
-.topic ul.reacties li:last-child {
+.topic ul.reacties li.r {
     border:none;
     min-height:0px;
 }
