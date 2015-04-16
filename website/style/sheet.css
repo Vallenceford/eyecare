@@ -12,7 +12,6 @@
 
 .topic {
     height:auto;
-    margin-bottom:20px;
 }
 
 .topic h2 {
@@ -43,6 +42,24 @@
     display: block;
 }
 
+span.gebruiker {
+    font-weight: bold;
+    color:#fff;
+    font-size:12px;
+}
+span.nummer {
+    float:right;
+    font-size:1.2em;
+    font-weight: bold;
+    color:#fff;
+}
+
+button {
+    border-radius:5px;
+    padding:3px;
+    border:1px solid #ddd;
+}
+
 .topic ul.reacties {
     background:grey;
     height:auto;
@@ -67,9 +84,9 @@
 }
 
 .topic ul.reacties li p.react {
-    float:left;
     padding:10px;
     font-size: 15px;
+    margin-left:100px;
 }
 
 .topic ul.reacties li img {
@@ -83,8 +100,21 @@
 /*------- topic lijst  ---------*/
 
 ul#lijst {
-    background:#000;
+    
 }
+
+ul#lijst li {
+    border:solid #000 1px;
+    margin:4px;
+    background:grey;
+}
+
+ul#lijst li span {
+    border-right:solid #000 1px;
+    padding:0px 10px 0px 10px;
+}
+
+
 
 
 

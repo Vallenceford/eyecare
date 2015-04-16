@@ -26,22 +26,22 @@
         
         <ul class="reacties">
             <li>
-                <h3 class="klein">Gebruiker <span>loremipsum42</span> | 10-04-2015 | 14:05:10 | report</h3>
+                <h3 class="klein">Gebruiker <span class="gebruiker">loremipsum42</span> | 10-04-2015 | 14:21:56 | report</h3>
                 <img class="avatar" src="../webSite/media/img/ava.png">
                     <p class="react">Vooral van dat interpunctie mag hard worden aangepakt hoor.</p>
             </li>
             <li>
-                <h3 class="klein">Gebruiker <span>pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3><img class="avatar" src="../webSite/media/img/ava.png">
+                <h3 class="klein">Gebruiker <span class="gebruiker">MLG4Laife</span> | 10-04-2015 | 14:29:10 | report</h3><img class="avatar" src="../webSite/media/img/ava.png">
                     <p class="react">Wat lorem42ipsum zegt inderdaad..</p>
             </li>
             <li>
-                <h3 class="klein">Gebruiker <span>pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3>
+                <h3 class="klein">Gebruiker <span class="gebruiker">Cashmere</span> | 10-04-2015 | 15:30:04 | report</h3>
                 <img class="avatar" src="../webSite/media/img/ava.png">
                     <p class="react">Wat lorem42ipsum zegt inderdaad..</p>
             </li>
             
             <li>
-                <h3 class="klein">Gebruiker <span>pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3>
+                <h3 class="klein">Gebruiker <span class="gebruiker">pietkees93</span> | 10-04-2015 | 15:43:30 | report</h3>
                 <img class="avatar" src="../webSite/media/img/ava.png">
                     <p class="react">^ Fijn om dat te horen (:</p>
             </li>

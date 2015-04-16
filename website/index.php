@@ -32,16 +32,16 @@
         
         <ul class="reacties">
             <li>
-                <h3 class="klein">Gebruiker <span>pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3>
+                <h3 class="klein">Gebruiker <span class="gebruiker">pietkees93</span> | 10-04-2015 | 14:05:10 | report <span class="nummer">#2</span></h3>
                 <img class="avatar" src="../webSite/media/img/ava.png">
                     <p class="react">Wat lorem42ipsum zegt inderdaad..</p>
             </li>
             <li>
-                <h3 class="klein">Gebruiker <span>pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3><img class="avatar" src="../webSite/media/img/ava.png">
+                <h3 class="klein">Gebruiker <span class="gebruiker">pietkees93</span> | 10-04-2015 | 14:05:10 | report <span class="nummer">#3</span></h3><img class="avatar" src="../webSite/media/img/ava.png">
                     <p class="react">Dat zijn wel goeie regels, ik ben het er helemaal mee eens.</p>
             </li>
             <li>
-                <h3 class="klein">Gebruiker <span>pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3>
+                <h3 class="klein">Gebruiker <span class="gebruiker">pietkees93</span> | 10-04-2015 | 14:05:10 | report <span class="nummer">#4</span></h3>
                 <img class="avatar" src="../webSite/media/img/ava.png">
                     <p class="react">^ Fijn om dat te horen (:</p>
             </li>
@@ -54,8 +54,8 @@
     </div>
     
     <div class="topic">
-        <h2>Regels van het forum</h2>
-            <h3>Topic gestart door <span>pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3>
+        <h2>Een actie voor Eye Care Foundation</h2>
+            <h3>Topic gestart door <span class="gebruiker">pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3>
                 <div class="onderwerp">
 <p>Aangezien dit een forum is gelden er ook een aantal regels.</p>
 
@@ -71,22 +71,21 @@
         Het doel van deze website is om vragen te kunnen stellen in een community waar het zicht van het oog op nummer 1 staat, vergeet dat niet wanneer je een topic aan maakt!</li>
     </ul>
 
-
                     <span>Lees verder &raquo;</span>
                 </div>
         
         <ul class="reacties">
             <li>
-                <h3 class="klein">Gebruiker <span>pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3>
+                <h3 class="klein">Gebruiker <span class="gebruiker">pietkees93</span> | 10-04-2015 | 14:05:10 | report <span class="nummer">#3</span></h3>
                 <img class="avatar" src="../webSite/media/img/ava.png">
                     <p class="react">Wat lorem42ipsum zegt inderdaad..</p>
             </li>
             <li>
-                <h3 class="klein">Gebruiker <span>pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3><img class="avatar" src="../webSite/media/img/ava.png">
+                <h3 class="klein">Gebruiker <span class="gebruiker">pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3><img class="avatar" src="../webSite/media/img/ava.png">
                     <p class="react">Dat zijn wel goeie regels, ik ben het er helemaal mee eens.</p>
             </li>
             <li>
-                <h3 class="klein">Gebruiker <span>pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3>
+                <h3 class="klein">Gebruiker <span class="gebruiker">pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3>
                 <img class="avatar" src="../webSite/media/img/ava.png">
                     <p class="react">^ Fijn om dat te horen (:</p>
             </li>
