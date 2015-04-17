@@ -6,14 +6,15 @@
         <img src="http://devimg.com/100x100">
         <a href="#">wijzig profiel</a>
     </div>
+    
     <section>
         <h2>Noeël Moeskops</h2>
-        <b>geregistreerd</b>
-        <p>vandaag</p>
-        <b>Laatste bericht</b>
-        <p>gister</p>
-        <b>aantal berichten</b>
-        <p>over 9000</p>
+        <b>Geregistreerd:</b>
+            <p>Vandaag</p>
+        <b>Laatste bericht:</b>
+            <p>Gister</p>
+        <b>Aantal berichten:</b>
+            <p>18</p>
     </section>
 
 

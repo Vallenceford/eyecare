@@ -10,10 +10,10 @@
 </p>
 
 <form action="login.php">
-    <input type="text" placeholder="gebruikersnaam">
-    <input type="text" placeholder="e-mail">
+    <input type="text" placeholder="Gebruikersnaam">
+    <input type="text" placeholder="E-mail">
     <input type="password" placeholder="Wachtwoord">
-    <input type="submit" value="aanmelden">
+    <input type="submit" value="Aanmelden">
 </form>
 
 

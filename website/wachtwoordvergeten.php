@@ -3,16 +3,14 @@
 <link rel="stylesheet" href="style/login.css" type="text/css" />
 
 
-
-
 <p>
-    voor je gegevends in
+    voer je gegevens in
 </p>
 
 <form action="?">
-    <input type="text" placeholder="gebruikersnaam">
-    <input type="text" placeholder="e-mail">
-    <input type="submit" value="stuur email">
+    <input type="text" placeholder="Gebruikersnaam">
+    <input type="text" placeholder="E-mail">
+    <input type="submit" value="Stuur email">
 </form>
 
 

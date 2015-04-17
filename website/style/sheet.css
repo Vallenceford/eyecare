@@ -5,41 +5,49 @@
 }
 
 #bord .topic {
-    background:#ddd;
+    background-color: #eee; 
     margin-top:25px;
-    margin: 0 auto;
-}
-
-.topic {
     height:auto;
+    border: 1px solid #E37A6E;
+    font-weight:100;
 }
 
 .topic h2 {
     font-size:30px;
     padding:10px;
-    background:red;
+    background:#D44732;
 }
 
 .topic h3 {
     padding: 5px 5px 5px 10px;
     font-size:13px;
-    border-bottom:1px #000 solid;
+    border-bottom:1px #fff solid;
+    font-weight: 100;
+    font-family: arial;
+    background:#D44732;
 }
 
 .topic h3.klein {
-    background:black;
+    background:#E37A6E;
     font-family: arial;
     font-size:10px;
 }
 
 .topic .onderwerp {
     padding:15px;
+    font-family:arial;
+    font-weight: bold;
 }
 
-.topic .onderwerp span {
+.topic .onderwerp ul li {
+    padding:0.8em;
+}
+
+.topic .onderwerp a.verder {
     font-weight: bold;
     text-align: right; 
     display: block;
+    
 }
 
 span.gebruiker {
@@ -61,10 +69,11 @@ button {
 }
 
 .topic ul.reacties {
-    background:grey;
+    background-color: rgba(184, 138, 138, 0.4); 
     height:auto;
     width:auto;
     padding:10px;
+    font-size: 1.3em;
 }
 
 .topic ul.reacties li {
@@ -72,6 +81,10 @@ button {
     padding:5px;
     margin:10px;
     min-height: 150px;
+}
+
+.topic ul.reacties li.dnkr {
+    background-color: rgba(184, 138, 138, 0.6); 
 }
 
 .topic ul.reacties li.r {
@@ -91,7 +104,7 @@ button {
 
 .topic ul.reacties li img {
     padding:10px;
-    border-right:solid #000 1px;
+    border-right:solid #fff 1px;
     margin-top:10px;
     float:left;
 }
@@ -103,15 +116,22 @@ ul#lijst {
     
 }
 
+ul#lijst:first-child {
+    background:#fff;
+}
+
 ul#lijst li {
     border:solid #000 1px;
     margin:4px;
     background:grey;
+    padding:10px;
 }
+
+
 
 ul#lijst li span {
     border-right:solid #000 1px;
-    padding:0px 10px 0px 10px;
+    padding:0px 10px 0px 0px;
 }
 
 
