@@ -17,6 +17,7 @@ main>section>section {
     margin: 5em 0 0 0;
     max-width: 800px;
     display: flex;
+    margin-top:10px;
     
 }
 main>section>section>div>img {
@@ -52,7 +53,7 @@ main>section>section>section>b {
 /*    font-weight: bold;*/
     font-family: 'header';
     padding: 0 3.5em;
-    color: white;
+    color: #838383;
 }
 
 main>section>section>section>b:after{
@@ -61,5 +62,5 @@ content: ":";
 
 main>section>section>section>p {
     margin: 0.4em 4em;
-    color: white;
+    color: #929292;
 }

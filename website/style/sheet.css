@@ -5,7 +5,7 @@
 }
 
 #bord .topic {
-    background-color: #eee; 
+    background-color:#f8f8f7; 
     margin-top:25px;
     height:auto;
     border: 1px solid #E37A6E;
@@ -47,6 +47,7 @@
     font-weight: bold;
     text-align: right; 
     display: block;
+    text-decoration: underline;
     
 }
 
@@ -65,6 +66,7 @@ span.nummer {
 button {
     border-radius:5px;
     padding:3px;
+    font-size:0.7em;
     border:1px solid #ddd;
 }
 
@@ -87,19 +89,26 @@ button {
     background-color: rgba(184, 138, 138, 0.6); 
 }
 
+.topic ul.reacties li.dnkr p.react {
+    color:#3f3a3a;
+}
+
 .topic ul.reacties li.r {
     border:none;
     min-height:0px;
 }
 
-.topic ul.reacties li.reageren button {
-    
-}
-
 .topic ul.reacties li p.react {
     padding:10px;
     font-size: 15px;
+    color:#504949;
     margin-left:100px;
+}
+
+.topic ul.reacties li#vlak {
+    border:none;
+    overflow:hidden;
+    min-height:72px;
 }
 
 .topic ul.reacties li img {
@@ -108,7 +117,6 @@ button {
     margin-top:10px;
     float:left;
 }
-
 
 /*------- topic lijst  ---------*/
 
@@ -128,13 +136,38 @@ ul#lijst li {
 }
 
 
-
 ul#lijst li span {
     border-right:solid #000 1px;
     padding:0px 10px 0px 0px;
 }
 
+/*------- lijst topics + aanmaken  ---------*/
 
+#btns {
+    position:fixed;
+    margin-top:365px;
+    width:126px;
+    height:300px;
+    background:none;
+    margin-left:900px;
+    z-index:99999;
+}
+
+#btns>button {
+    border-radius:5px;
+    padding:10px;
+    font-size:0.7em;
+    background:#D44732;
+    color:white;
+    float:left;
+    font-size:13px;
+    font-weight: bold;
+    margin-top:5px;
+}
+
+#btns>button:first-child {
+    width:125px;
+}
 
 
 

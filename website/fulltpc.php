@@ -1,10 +1,10 @@
 <?php include 'php/header.php'; ?>
+    <link rel="stylesheet" href="style/fulltpc.css" type="text/css" />
 
-
-    <div class="topic">
+    <div id="topic">
         <h2>Regels van het forum</h2>
             <h3>Topic gestart door <span>pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3>
-                <div class="onderwerp">
+                <div id="onderwerp">
 <p>Aangezien dit een forum is gelden er ook een aantal regels.</p>
 
     <ul>
@@ -24,26 +24,32 @@
     </ul>
                 </div>
         
-        <ul class="reacties">
+        <ul id="reacties">
             <li>
-                <h3 class="klein">Gebruiker <span class="gebruiker">loremipsum42</span> | 10-04-2015 | 14:21:56 | report</h3>
+                <h3 class="klein">Gebruiker <span class="gebruiker">loremipsum42</span> | 10-04-2015 | 14:21:56 | report <span class="nummer">#1</span></h3>
                 <img class="avatar" src="../webSite/media/img/ava.png">
                     <p class="react">Vooral van dat interpunctie mag hard worden aangepakt hoor.</p>
             </li>
             <li class="dnkr">
-                <h3 class="klein">Gebruiker <span class="gebruiker">MLG4Laife</span> | 10-04-2015 | 14:29:10 | report</h3><img class="avatar" src="../webSite/media/img/ava.png">
+                <h3 class="klein">Gebruiker <span class="gebruiker">MLG4Laife</span> | 10-04-2015 | 14:29:10 | report <span class="nummer">#2</span></h3><img class="avatar" src="../webSite/media/img/ava.png">
                     <p class="react">Wat lorem42ipsum zegt inderdaad..</p>
             </li>
             <li>
-                <h3 class="klein">Gebruiker <span class="gebruiker">Cashmere</span> | 10-04-2015 | 15:30:04 | report</h3>
+                <h3 class="klein">Gebruiker <span class="gebruiker">Cashmere</span> | 10-04-2015 | 15:30:04 | report <span class="nummer">#3</span></h3>
                 <img class="avatar" src="../webSite/media/img/ava.png">
-                    <p class="react">Wat lorem42ipsum zegt inderdaad..</p>
+                    <p class="react">Dat zijn wel goeie regels, ik ben het er helemaal mee eens!</p>
             </li>
             
             <li class="dnkr">
-                <h3 class="klein">Gebruiker <span class="gebruiker">pietkees93</span> | 10-04-2015 | 15:43:30 | report</h3>
+                <h3 class="klein">Gebruiker <span class="gebruiker">pietkees93</span> | 10-04-2015 | 15:43:30 | report <span class="nummer">#4</span></h3>
                 <img class="avatar" src="../webSite/media/img/ava.png">
                     <p class="react">^ Fijn om dat te horen (:</p>
+            </li>
+            
+            <li id="vlak"><textarea cols="50" rows="4" name="commentaar" placeholder="..."></textarea></li>
+            
+            <li class="r">
+                 <button type="button">Verstuur</button> 
             </li>
                     
         </ul>

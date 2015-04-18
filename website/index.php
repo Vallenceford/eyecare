@@ -10,7 +10,7 @@
 <div id="bord">
     <div class="topic">
         <h2>Regels van het forum</h2>
-            <h3>Topic gestart door <span>pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3>
+            <h3>Topic gestart door <span class="gebruiker">pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3>
                 <div class="onderwerp">
 <p>Aangezien dit een forum is gelden er ook een aantal regels.</p>
 
@@ -29,19 +29,19 @@
 
                     <a class="verder" href="fulltpc.php">Lees verder &raquo;</a>
                 </div>
-        
+         
         <ul class="reacties">
             <li>
-                <h3 class="klein">Gebruiker <span class="gebruiker">pietkees93</span> | 10-04-2015 | 14:05:10 | report <span class="nummer">#2</span></h3>
+                <h3 class="klein">Gebruiker <span class="gebruiker">MLG4Laife</span> | 10-04-2015 | 14:29:10 | report <span class="nummer">#2</span></h3>
                 <img class="avatar" src="../webSite/media/img/ava.png">
                     <p class="react">Wat lorem42ipsum zegt inderdaad..</p>
             </li>
             <li class="dnkr">
-                <h3 class="klein">Gebruiker <span class="gebruiker">pietkees93</span> | 10-04-2015 | 14:05:10 | report <span class="nummer">#3</span></h3><img class="avatar" src="../webSite/media/img/ava.png">
+                <h3 class="klein">Gebruiker <span class="gebruiker">Cashmere</span> | 10-04-2015 | 15:30:04 | report <span class="nummer">#3</span></h3><img class="avatar" src="../webSite/media/img/ava.png">
                     <p class="react">Dat zijn wel goeie regels, ik ben het er helemaal mee eens.</p>
             </li>
             <li>
-                <h3 class="klein">Gebruiker <span class="gebruiker">pietkees93</span> | 10-04-2015 | 14:05:10 | report <span class="nummer">#4</span></h3>
+                <h3 class="klein">Gebruiker <span class="gebruiker">pietkees93</span> | 10-04-2015 | 15:43:30 | report <span class="nummer">#4</span></h3>
                 <img class="avatar" src="../webSite/media/img/ava.png">
                     <p class="react">^ Fijn om dat te horen (:</p>
             </li>
@@ -55,7 +55,7 @@
     
     <div class="topic">
         <h2>Een actie voor Eye Care Foundation</h2>
-            <h3>Topic gestart door <span class="gebruiker">pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3>
+            <h3>Topic gestart door <span class="gebruiker">lorem78ipsum</span> | 11-04-2015 | 15:25:18 | report</h3>
                 <div class="onderwerp">
 <p>Hallo,</p>
 
@@ -67,20 +67,15 @@
         
         <ul class="reacties">
             <li>
-                <h3 class="klein">Gebruiker <span class="gebruiker">pietkees93</span> | 10-04-2015 | 14:05:10 | report <span class="nummer">#3</span></h3>
+                <h3 class="klein">Gebruiker <span class="gebruiker">chas3yodreams</span> | 10-04-2015 | 15:30:04 | report <span class="nummer">#1</span></h3>
                 <img class="avatar" src="../webSite/media/img/ava.png">
-                    <p class="react">Wat lorem42ipsum zegt inderdaad..</p>
+                    <p class="react">Een sponsorloop is altijd leuk om te doen.. Vooral met dit weer</p>
             </li>
             <li class="dnkr">
-                <h3 class="klein">Gebruiker <span class="gebruiker">pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3><img class="avatar" src="../webSite/media/img/ava.png">
-                    <p class="react">Dat zijn wel goeie regels, ik ben het er helemaal mee eens.</p>
-            </li>
-            <li>
-                <h3 class="klein">Gebruiker <span class="gebruiker">pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3>
+                <h3 class="klein">Gebruiker <span class="gebruiker">Cashmere</span> | 10-04-2015 | 16:21:58 | report <span class="nummer">#2</span></h3> 
                 <img class="avatar" src="../webSite/media/img/ava.png">
-                    <p class="react">^ Fijn om dat te horen (:</p>
-            </li>
-                    
+                    <p class="react">Beklim een berg?</p>
+            </li>   
             
             <li class="r">
                  <button type="button">Reageren</button> 

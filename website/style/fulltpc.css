@@ -1,0 +1,106 @@
+#topic {
+    background-color:#f8f8f7; 
+    margin-top:25px;
+    height:auto;
+    border: 1px solid #E37A6E;
+    font-weight:100;
+}
+
+#topic h2 {
+    font-size:30px;
+    padding:10px;
+    background:#D44732;
+}
+
+#topic h3 {
+    padding: 5px 5px 5px 10px;
+    font-size:13px;
+    border-bottom:1px #fff solid;
+    font-weight: 100;
+    font-family: arial;
+    background:#D44732;
+}
+
+#topic h3.klein {
+    background:#E37A6E;
+    font-family: arial;
+    font-size:10px;
+}
+
+#topic #onderwerp {
+    padding:15px;
+    font-family:arial;
+    font-weight: bold;
+}
+
+#topic #onderwerp ul li {
+    padding:0.8em;
+}
+
+span.gebruiker {
+    font-weight: bold;
+    color:#fff;
+    font-size:12px;
+}
+span.nummer {
+    float:right;
+    font-size:1.2em;
+    font-weight: bold;
+    color:#fff;
+}
+
+button {
+    border-radius:5px;
+    padding:3px;
+    font-size:0.7em;
+    border:1px solid #ddd;
+}
+
+#topic ul#reacties {
+    background-color: rgba(184, 138, 138, 0.4); 
+    height:auto;
+    width:auto;
+    padding:10px;
+    font-size: 1.3em;
+}
+
+#topic ul#reacties li {
+    border:white 1px solid;
+    padding:5px;
+    margin:10px;
+    min-height: 150px;
+}
+
+#topic ul#reacties li.dnkr {
+    background-color: rgba(184, 138, 138, 0.6); 
+}
+
+#topic ul#reacties li.r {
+    border:none;
+    min-height:0px;
+}
+
+#topic ul#reacties li p.react {
+    padding:10px;
+    font-size: 15px;
+    margin-left:100px;
+}
+
+#topic ul#reacties li#vlak {
+    border:none;
+    overflow:hidden;
+    min-height:72px;
+}
+
+#topic ul#reacties li#vlak textarea {
+    padding:10px;
+    font-size:14px;
+    font-family: sans-serif;
+}
+
+#topic ul#reacties li img {
+    padding:10px;
+    border-right:solid #fff 1px;
+    margin-top:10px;
+    float:left;
+}

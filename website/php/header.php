@@ -48,6 +48,8 @@
             <section>
                 <a href="index.php">Home</a>
                 <a href="info.php">Zoeken</a>
+                <a href="#">Alle topics</a>
+                <a href="#">Maak topic</a>
                 <section>
                     <a href="#">Aanmelden</a>
                     <a href="#">Profiel</a>
@@ -62,5 +64,10 @@
             <a href="#">Doneer</a>
         </nav>
 -->
+        
+<div id="btns">
+    <button type="button">Alle topics</button>
+    <button type="button">Maak topic aan</button>
+</div>
 
         <section>

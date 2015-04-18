@@ -8,16 +8,15 @@
     </div>
     
     <section>
+        
         <h2>Noeël Moeskops</h2>
-        <b>Geregistreerd:</b>
+        <b>Geregistreerd</b>
             <p>Vandaag</p>
-        <b>Laatste bericht:</b>
+        <b>Laatste bericht</b>
             <p>Gister</p>
-        <b>Aantal berichten:</b>
+        <b>Aantal berichten</b>
             <p>18</p>
     </section>
-
-
 
 </section>
 
