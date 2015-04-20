@@ -36,10 +36,12 @@ geel:
 
 @media (max-width: 635px) {
     header {
-        height: 20%;
+        height: 20vh;
+        border-bottom: 1em solid #FBE64F;
     }
     header a img {
-        left: 0;
+        left: 1%;
+        height: calc(20vh - 1em);
     }
     header nav {
         display: none;

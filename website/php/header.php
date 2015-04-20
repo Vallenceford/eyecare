@@ -31,7 +31,7 @@
 <body>
     <header>
     <a href="index.php">
-        <img src="media/img/logo.jpg" alt="Eye care foundation">
+        <img src="media/svg/logoOogpuntTrans.svg" alt="Eye care foundation">
     </a>
         <nav>
             <a href="index.php">Home</a>

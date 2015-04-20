@@ -1,6 +1,6 @@
 <?php include 'php/header.php'; ?>
 
-<h1>Eye care foundation</h1>
+<h1>PuntOog</h1>
             
     <p>
     Welkom op het forum van de actie van Eye Care Foundation! 
