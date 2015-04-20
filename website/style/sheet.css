@@ -163,7 +163,7 @@ ul#lijst li span {
 /*------- lijst topics + aanmaken  ---------*/
 
 #btns {
-    position:fixed;
+    position:absolute;
     margin-top:365px;
     width:126px;
     height:300px;
