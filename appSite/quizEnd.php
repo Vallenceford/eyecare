@@ -7,8 +7,8 @@
 
 		<p>
 
-			dit is je score je kunt het delen en je vrienden laten weten wat je score is. 
-			of hierboven op het pijltje drukken om het nog een keer te doen.
+			Dit zijn jouw punten. Je kunt het delen en je vrienden laten weten wat je score is, 
+			of hierboven op het pijltje klikken om de quiz opnieuw te doen.
 		</p>
 
 		<nav id="mainNav_normaal">

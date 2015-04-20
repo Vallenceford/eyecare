@@ -7,9 +7,7 @@
 <h1>Eye care foundation</h1>
             <p>
                 
-                eye care foundation is een non-profit organisatie. 
-                wij helpen onnodige blindheid en slechtziendheid in ontwikkelingslanden voorkomen en genezen.
-                
+Welkom op de app van Eye Care Foundation. Wij helpen onnodige blindheid en slechtziendheid in ontwikkelingslanden te voorkomen en genezen met steun doormiddel van donaties.
 
             </p>
 
