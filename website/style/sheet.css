@@ -34,7 +34,7 @@
 }
 
 .topic .onderwerp {
-    padding:15px;
+    padding:1em;
     font-family:arial;
     font-weight: bold;
 }
@@ -80,7 +80,6 @@ button {
 
 .topic ul.reacties li {
     border:white 1px solid;
-    padding:5px;
     margin:10px;
     min-height: 150px;
 }
@@ -117,6 +116,26 @@ button {
     margin-top:10px;
     float:left;
 }
+
+        @media all and (max-width: 635px) {
+            .topic .onderwerp {
+                padding:0.3em;
+                font-family:arial;
+                font-weight: bold;
+            }
+            
+            .topic ul.reacties li {
+                border:white 1px solid;
+                border-bottom:none;
+                margin:0px;
+                min-height: 150px;
+            }
+            
+            .topic ul.reacties li:last-child {
+                border-bottom:1px solid #fff;
+            }
+
+        }
 
 /*------- topic lijst  ---------*/
 
