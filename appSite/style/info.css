@@ -70,6 +70,14 @@ main>section p + section + section>section p {
     text-align: center;
 }
 
+b {
+    font-weight: bold;
+}
+
+span {
+    margin-left:20px;
+}
+
 @media (max-width: 600px) {
     main>section p + section + section>img {
         display: none;

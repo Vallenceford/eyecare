@@ -18,17 +18,21 @@ Veel slechtzienden zijn daarom geholpen met een goede bril op sterkte.
 	<img src="media/img/infoProjecten.jpg" alt="projecten">
 	<h2>Onze projecten</h2>
 	<p>
-<b>-Het geven van opleidingen en trainingen</b>
+<b>Het geven van opleidingen en trainingen</b>
 
-..Zodat professionals in hun eigen land werken aan het terugdringen van onnodige blindheid. De cursussen en opleidingen worden in het land zelf of in een buurland gehouden.
+<span>..Zodat professionals in hun eigen land werken aan het terugdringen van onnodige blindheid. De cursussen en opleidingen worden in het land zelf of in een buurland gehouden.</span>
 
-<b>-Het neerzetten van oogkampen</b>
+<b>Het neerzetten van oogkampen</b>
         
-..In moeilijk bereikbare gebieden voor lokale bevolking waar zoveel mogelijk mensen met staar geopereerd.
+<span>..In moeilijk bereikbare gebieden voor lokale bevolking waar zoveel mogelijk mensen met staar geopereerd.</span>
         
-<b>-Oogziekenhuizen en apparatuur</b>
+<b>Het financieren van oogziekenhuizen en apparatuur</b>
+     <span>..Van dorpskliniek tot oogziekenhuizen en het verzorgen van de noodzakelijke apparatuur!</span>   
 
+<b>Het houden van oogmetingen</b>
+     <span>Er worden dorpsgezondheidswerkers en onderwijzers getraind in het herkennen van oogproblemen. Wanneer het nodig is worden er brillen, in het land zelf gemaakt of gedoneerd.</span>
 
+<b>Het geld van u als donateur zal goed gebruikt worden en u verbeterd er vele levens mee!</b>
 
 	</p>
 
