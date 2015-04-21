@@ -1,192 +1,159 @@
 #bord {
-    width:100%;
-    height:auto;
-    position:relative;
+    width: 100%;
+    height: auto;
+    position: relative;
 }
-
 #bord .topic {
-    background-color:#f8f8f7; 
-    margin-top:25px;
-    height:auto;
+    background-color: #f8f8f7;
+    margin-top: 25px;
+    height: auto;
     border: 1px solid #E37A6E;
-    font-weight:100;
+    font-weight: 100;
 }
-
 .topic h2 {
-    font-size:30px;
-    padding:10px;
-    background:#D44732;
+    font-size: 30px;
+    padding: 10px;
 }
-
 .topic h3 {
     padding: 5px 5px 5px 10px;
-    font-size:13px;
-    border-bottom:1px #fff solid;
+    font-size: 13px;
+    border-bottom: 1px #fff solid;
+    color: brown;
     font-weight: 100;
     font-family: arial;
-    background:#D44732;
+    background: #FAF994;
 }
-
 .topic h3.klein {
-    background:#E37A6E;
+    background: #ffdd57;
     font-family: arial;
-    font-size:10px;
+    font-size: 10px;
 }
-
 .topic .onderwerp {
-    padding:1em;
-    font-family:arial;
+    padding: 1em;
+    font-family: arial;
     font-weight: bold;
 }
-
 .topic .onderwerp ul li {
-    padding:0.8em;
+    padding: 0.8em;
 }
-
 .topic .onderwerp a.verder {
     font-weight: bold;
-    text-align: right; 
+    text-align: right;
     display: block;
     text-decoration: underline;
-    
 }
-
 span.gebruiker {
     font-weight: bold;
-    color:#fff;
-    font-size:12px;
+    font-size: 12px;
 }
 span.nummer {
-    float:right;
-    font-size:1.2em;
+    float: right;
+    font-size: 1.2em;
     font-weight: bold;
-    color:#fff;
+    color: #fff;
 }
-
 button {
-    border-radius:5px;
-    padding:3px;
-    font-size:0.7em;
-    border:1px solid #ddd;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 0.7em;
+    border: 1px solid #ddd;
 }
-
 .topic ul.reacties {
-    background-color: rgba(184, 138, 138, 0.4); 
-    height:auto;
-    width:auto;
-    padding:10px;
+    background-color: rgba(203, 174, 59, 0.14);
+    height: auto;
+    width: auto;
+    padding: 10px;
     font-size: 1.3em;
 }
-
 .topic ul.reacties li {
-    border:white 1px solid;
-    margin:10px;
+    border: white 1px solid;
+    margin: 10px;
     min-height: 150px;
 }
-
 .topic ul.reacties li.dnkr {
-    background-color: rgba(184, 138, 138, 0.6); 
+    background-color: rgba(230, 232, 131, 0.6);
 }
-
 .topic ul.reacties li.dnkr p.react {
-    color:#3f3a3a;
+    color: #3f3a3a;
 }
-
 .topic ul.reacties li.r {
-    border:none;
-    min-height:0px;
+    border: none;
+    min-height: 0px;
 }
-
 .topic ul.reacties li p.react {
-    padding:10px;
+    padding: 10px;
     font-size: 15px;
-    color:#504949;
-    margin-left:100px;
+    color: #504949;
+    margin-left: 100px;
 }
-
 .topic ul.reacties li#vlak {
-    border:none;
-    overflow:hidden;
-    min-height:72px;
+    border: none;
+    overflow: hidden;
+    min-height: 72px;
 }
-
 .topic ul.reacties li img {
-    padding:10px;
-    border-right:solid #fff 1px;
-    margin-top:10px;
-    float:left;
+    padding: 10px;
+    border-right: solid #fff 1px;
+    margin-top: 10px;
+    float: left;
 }
-
-        @media all and (max-width: 635px) {
-            .topic .onderwerp {
-                padding:0.3em;
-                font-family:arial;
-                font-weight: bold;
-            }
-            
-            .topic ul.reacties li {
-                border:white 1px solid;
-                border-bottom:none;
-                margin:0px;
-                min-height: 150px;
-            }
-            
-            .topic ul.reacties li:last-child {
-                border-bottom:1px solid #fff;
-            }
-
-        }
-
+@media all and (max-width: 635px) {
+    .topic .onderwerp {
+        padding: 0.3em;
+        font-family: arial;
+        font-weight: bold;
+    }
+    .topic ul.reacties li {
+        border: white 1px solid;
+        border-bottom: none;
+        margin: 0px;
+        min-height: 150px;
+    }
+    .topic ul.reacties li:last-child {
+        border-bottom: 1px solid #fff;
+    }
+    #btns {
+        display: none;
+    }
+}
 /*------- topic lijst  ---------*/
 
-ul#lijst {
-    
+ul#lijst {} ul#lijst:first-child {
+    background: #fff;
 }
-
-ul#lijst:first-child {
-    background:#fff;
-}
-
 ul#lijst li {
-    border:solid #000 1px;
-    margin:4px;
-    background:grey;
-    padding:10px;
+    border: solid #000 1px;
+    margin: 4px;
+    background: grey;
+    padding: 10px;
 }
-
-
 ul#lijst li span {
-    border-right:solid #000 1px;
-    padding:0px 10px 0px 0px;
+    border-right: solid #000 1px;
+    padding: 0px 10px 0px 0px;
 }
-
 /*------- lijst topics + aanmaken  ---------*/
 
 #btns {
-    position:absolute;
-    margin-top:365px;
-    width:126px;
-    background:none;
-    margin-left:900px;
-    z-index:99999;
+    position: absolute;
+    left: 100%;
+    width: auto;
 }
-
 #btns>button {
-    border-radius:5px;
-    padding:10px;
-    font-size:0.7em;
-    background:#D44732;
-    color:white;
-    float:left;
-    font-size:13px;
+    border-radius: 5px;
+    padding: 1em;
+    font-size: 1em;
+    background: #FAF994;
+    color: white;
+    width: 150%;
+    max-width: calc(19vw - 1em);
+    margin: 1em 0 1em 1em;
     font-weight: bold;
-    margin-top:5px;
+    color: brown;
+    margin-top: 0.3em;
 }
-
-#btns>button:first-child {
-    width:125px;
+@media (max-width: 800px) {
+    #btns {
+        left: 0;
+        position: relative;
+    }
 }
-
-
-
-

@@ -65,7 +65,7 @@ header a img {
 
 header nav {
     width: 100vw;
-    background-color: #FBE64F;
+    background-color: #FFDD57;
     position: absolute;
     /*height: 2.5em;*/
     
@@ -85,8 +85,8 @@ header nav a {
 }
 
 header nav a:hover {
-    background-color: #e37a6e;
-    color: #fefe;
+    background-color: #FAF994;
+    color: brown;
 }
 
 header nav a:active {
@@ -129,11 +129,10 @@ main nav#mainNav_mobiel {
     
     transition: ease-in-out 0s;
     position: absolute;
-    top: calc(20% + 75px + 1em);
     left: 0;
     z-index: 5;
     width: 3em;
-    background-color: #d54833;
+    background-color: #FFDD57;
 }
 
 main nav#mainNav_mobiel img {
@@ -165,7 +164,7 @@ main nav#mainNav_mobiel section a {
     text-align: center;
     padding: 1em;
     border-bottom: 1px solid #fff;
-    background-color: #d54833;
+    background-color: #ffdd57;
     color: white;
     font-size: 1.5em;
 }
@@ -193,7 +192,8 @@ main nav#mainNav_mobiel section section a {
 
 main nav#mainNav_mobiel a:hover,
 main nav#mainNav_mobiel a:active {
-    background-color: #e37a6e;
+    background-color: #FAF994;
+    color: brown;
 }
 
 main nav#mainNav_mobiel section section a:hover,
@@ -209,8 +209,8 @@ main section h1,
 h2,
 h3 {
     font-family: header;
-    color: white;
-    background-color: #e37a6e;
+    color: black;
+    background-color: #FFDD57;
 }
 
 main section h1 {
@@ -247,8 +247,9 @@ p {
 footer {
     position: absolute;
     width: 100%;
-    background-color: #d54833;
+    background-color: #ffdd57;
     left: 0;
+    
     height: 2em;
     /*padding: 0.5em;*/
 }
@@ -259,6 +260,7 @@ footer a#footerA_mail {
     padding: 0 1em;
     position: relative;
     top: 50%;
+    color: chocolate;
     -webkit-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     -ms-transform: translateY(-50%);

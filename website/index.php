@@ -8,6 +8,11 @@
     </p>
 
 <div id="bord">
+   <div id="btns">
+    <button type="button">Alle topics</button>
+    <button type="button">Maak topic aan</button>
+</div>
+
     <div class="topic">
         <h2>Regels van het forum</h2>
             <h3>Topic gestart door <span class="gebruiker">pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3>
@@ -47,9 +52,9 @@
             </li>
                     
             
-            <li class="r">
+            
                  <button type="button">Reageren</button> 
-            </li>
+           
         </ul>
     </div>
     
@@ -77,9 +82,9 @@
                     <p class="react">Beklim een berg?</p>
             </li>   
             
-            <li class="r">
+           
                  <button type="button">Reageren</button> 
-            </li>
+        
         </ul>
     </div>
  
