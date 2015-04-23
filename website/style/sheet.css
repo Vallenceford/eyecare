@@ -32,6 +32,7 @@
     padding: 1em;
     font-family: arial;
     font-weight: bold;
+    background: rgba(203, 174, 59, 0.14);
 }
 .topic .onderwerp ul li {
     padding: 0.8em;
@@ -50,7 +51,7 @@ span.nummer {
     float: right;
     font-size: 1.2em;
     font-weight: bold;
-    color: #fff;
+    color:#B36034;
 }
 button {
     border-radius: 5px;
@@ -119,18 +120,21 @@ button {
 }
 /*------- topic lijst  ---------*/
 
-ul#lijst {} ul#lijst:first-child {
-    background: #fff;
+ul#lijst li:first-child {
+    background: #FAF994;
+    font-weight: bold;
+    font-size:1em;
 }
 ul#lijst li {
     border: solid #000 1px;
     margin: 4px;
-    background: grey;
+    background: #F1EDDC;
     padding: 10px;
 }
 ul#lijst li span {
     border-right: solid #000 1px;
     padding: 0px 10px 0px 0px;
+    font-weight:bold;
 }
 /*------- lijst topics + aanmaken  ---------*/
 

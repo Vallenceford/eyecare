@@ -1,10 +1,11 @@
 <?php include 'php/header.php'; ?>
 
+<p>Alle topics die geplaatst zijn kan je hier vinden!</p>
+
 <ul id="lijst">
-    <li><span>1</span> hallo</li>
-    <li><span>2</span> hallo</li>
-    <li><span>3</span> hallo</li>
-    <li><span>4</span> hallo</li>
+    <li><span>#</span> Onderwerp</li>
+    <li><span>1</span> Regels van het forum</li>
+    <li><span>2</span> Een actie voor Eye Care Foundation</li>
 </ul>
 
 <?php include 'php/footer.php'; ?>

@@ -4,13 +4,13 @@
 <h1>PuntOog</h1>
             
     <p>
-    Welkom op het forum van de actie van Eye Care Foundation! 
-    Hier kan je alles te weten komen over aandoeningen van het ogen en eventueel nog vragen stellen, mocht je die hebben.
+    Meer weten over aandoeningen van het ogen? Of heb je zelf een verhaal of vraag die je wilt stellen? 
+    Dan ben je bij forum PuntOog op het juiste adres!
     </p>
 
 <div id="bord">
    <div id="btns">
-    <button type="button">Alle topics</button>
+    <button type="button"><a href="lijst.php">Alle topics</a></button>
     <button type="button">Maak topic aan</button>
 </div>
 

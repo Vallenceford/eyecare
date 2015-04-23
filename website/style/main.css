@@ -85,7 +85,7 @@ header nav {
 header nav a {
     display: block;
     float: left;
-    color: chocolate;
+    color: #000;
     padding: 0.5em;
     font-size: 1.3em;
     position: relative;

@@ -33,14 +33,14 @@ main>section>section>div>a:hover {
     text-decoration: underline;
 }
 main>section>section>div {
-    background-color: #e37a6e;
+    background-color: #f2e6b4;
     flex: 1;
     /*    min-width: 130px;*/
 }
 main>section>section>section {
     /*    float: right;*/
     /*    width: 66.66%;*/
-    background-color: #c3c3c3;
+    background-color: #F1EDDC;
     flex: 2;
     align-self: stretch;
     min-width: 240px;
