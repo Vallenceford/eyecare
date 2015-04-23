@@ -15,6 +15,9 @@ $('document').ready(function(e) {
         // $(div).css('margin-left', ((p) > start) ? '-450px' : '');
 
     });
+    
+    var options = { videoId: 'e4Is32W-ppk', start: 3 };
+	$('#vid').tubular(options);
 
 
 });

@@ -20,6 +20,7 @@
     <link rel="icon" href="media/icon.png" />
 
     <script src="js/jquery-2.0.2.js"></script>
+    <script src="js/jquery.tubular.1.0.js"></script>
     <script src="js/javascript.js"></script>
 
     <noscript>
@@ -30,6 +31,7 @@
 
 <body>
     <header>
+    <div id="vid"></div>
     <a href="index.php">
         <img src="media/svg/logoOogpuntTrans.svg" alt="Eye care foundation">
     </a>
