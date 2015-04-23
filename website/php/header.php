@@ -30,13 +30,19 @@
 
 <body>
     <header>
-            <iframe src="http://www.youtube.com/v/nzCj0te8CjQ?loop=1&version=3&hd=1&amp;modestbranding=0&autoplay=1&controls=0&disablekb=1&showinfo=0&rel=0&playlist=nzCj0te8CjQ" frameborder="0"></iframe>
-    <a href="index.php">
-        <img src="media/svg/logoOogpuntTrans.svg" alt="Eye care foundation">
-    </a>
+        <iframe src="http://www.youtube.com/v/nzCj0te8CjQ?loop=1&version=3&hd=1&amp;modestbranding=0&autoplay=1&controls=0&disablekb=1&showinfo=0&rel=0&playlist=nzCj0te8CjQ" frameborder="0"></iframe>
+        <a href="index.php">
+            <img src="media/svg/logoOogpuntTrans.svg" alt="Eye care foundation">
+        </a>
         <nav>
             <a href="index.php">Home</a>
-            <a href="info.php">Zoeken</a>
+            <div>
+                <a id="zoek" onclick="zoeken()">Zoeken</a>
+                <form id="fZoek" action="dit is een zoek">
+                    <input type="text" placeholder="zoek dan!">
+                    <input type="submit" value="Zoeken!">
+                </form>
+            </div>
             <a href="aanmelden.php">Aanmelden</a>
             <a href="profiel.php">Profiel</a>
         </nav>
@@ -48,7 +54,12 @@
             <img src="media/svg/menu.svg">
             <section>
                 <a href="index.php">Home</a>
-                <a href="info.php">Zoeken</a>
+                <div>
+                    <a onclick="zoeken()">Zoeken</a>
+                    <form action="dit is een zoek">
+                        <input type="text" placeholder="zoek dan!">
+                    </form>
+                </div>
                 <a href="lijst.php">Alle topics</a>
                 <a href="#">Maak topic</a>
                 <section>
@@ -58,13 +69,13 @@
             </section>
         </nav>
 
-<!--
+        <!--
         <nav id="mainNav_normaal">
             <a href="#">Like</a>
             <a href="#">Deel</a>
             <a href="#">Doneer</a>
         </nav>
 -->
-        
+
 
         <section>
