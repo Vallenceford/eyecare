@@ -10,8 +10,8 @@
 
 <div id="bord">
    <div id="btns">
-    <button type="button"><a href="lijst.php">Alle topics</a></button>
-    <button type="button">Maak topic aan</button>
+    <a href="lijst.php">Alle topics</a>
+    <a href="tpcaanmaak.php">Maak topic aan</a>
 </div>
 
     <div class="topic">

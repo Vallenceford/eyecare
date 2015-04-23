@@ -141,14 +141,15 @@ ul#lijst li span {
 #btns {
     position: absolute;
     left: 100%;
-    width: auto;
+    width:auto;
 }
-#btns>button {
+#btns a {
     border-radius: 5px;
     padding: 1em;
-    font-size: 1em;
+    word-wrap:normal;
+    font-size: 0.8em;
     background: #FAF994;
-    color: white;
+    block:inline-block;
     width: 150%;
     max-width: calc(19vw - 1em);
     margin: 1em 0 1em 1em;
