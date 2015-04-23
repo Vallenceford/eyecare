@@ -146,7 +146,6 @@ ul#lijst li span {
 #btns a {
     border-radius: 5px;
     padding: 1em;
-    word-wrap:normal;
     font-size: 0.8em;
     background: #FAF994;
     block:inline-block;
