@@ -49,11 +49,11 @@
             <section>
                 <a href="index.php">Home</a>
                 <a href="info.php">Zoeken</a>
-                <a href="#">Alle topics</a>
+                <a href="lijst.php">Alle topics</a>
                 <a href="#">Maak topic</a>
                 <section>
-                    <a href="#">Aanmelden</a>
-                    <a href="#">Profiel</a>
+                    <a href="aanmelden.php">Aanmelden</a>
+                    <a href="profiel.php">Profiel</a>
                 </section>
             </section>
         </nav>

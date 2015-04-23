@@ -9,7 +9,7 @@
 #topic h2 {
     font-size:30px;
     padding:10px;
-    background:#D44732;
+    background:#FFDD57;
 }
 
 #topic h3 {
@@ -18,19 +18,21 @@
     border-bottom:1px #fff solid;
     font-weight: 100;
     font-family: arial;
-    background:#D44732;
+    background:#FAF994;
 }
 
 #topic h3.klein {
-    background:#E37A6E;
+    background:#FFDD57;
     font-family: arial;
     font-size:10px;
+    color:#C64429;
 }
 
 #topic #onderwerp {
     padding:15px;
     font-family:arial;
     font-weight: bold;
+    background-color:rgba(203, 174, 59, 0.14);
 }
 
 #topic #onderwerp ul li {
@@ -39,14 +41,14 @@
 
 span.gebruiker {
     font-weight: bold;
-    color:#fff;
+    color:#000;
     font-size:12px;
 }
 span.nummer {
     float:right;
     font-size:1.2em;
     font-weight: bold;
-    color:#fff;
+    color:#B36034;
 }
 
 button {
@@ -57,7 +59,7 @@ button {
 }
 
 #topic ul#reacties {
-    background-color: rgba(184, 138, 138, 0.4); 
+    background-color: rgba(203, 174, 59, 0.14); 
     height:auto;
     width:auto;
     padding:10px;
@@ -66,13 +68,12 @@ button {
 
 #topic ul#reacties li {
     border:white 1px solid;
-    padding:5px;
     margin:10px;
     min-height: 150px;
 }
 
 #topic ul#reacties li.dnkr {
-    background-color: rgba(184, 138, 138, 0.6); 
+    background-color: rgba(247, 249, 151, 0.6); 
 }
 
 #topic ul#reacties li.r {
@@ -96,6 +97,7 @@ button {
     padding:10px;
     font-size:14px;
     font-family: sans-serif;
+    width:100%;
 }
 
 #topic ul#reacties li img {

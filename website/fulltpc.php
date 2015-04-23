@@ -3,7 +3,7 @@
 
     <div id="topic">
         <h2>Regels van het forum</h2>
-            <h3>Topic gestart door <span>pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3>
+            <h3>Topic gestart door <span class="gebruiker">pietkees93</span> | 10-04-2015 | 14:05:10 | report</h3>
                 <div id="onderwerp">
 <p>Aangezien dit een forum is gelden er ook een aantal regels.</p>
 
