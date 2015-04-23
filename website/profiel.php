@@ -4,7 +4,7 @@
 <section>
     <div>
         <img src="http://devimg.com/100x100">
-        <a href="#">wijzig profiel</a>
+        <a href="veranderaccount.php">wijzig profiel</a>
     </div>
     
     <section>
