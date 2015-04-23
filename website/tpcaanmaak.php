@@ -5,7 +5,7 @@
 <p>Hier kan je een topic aanmaken. Let op je grammatica en interpunctie, hou het netjes!</p>
 
 <fieldset>
-            <input type="text" placeholder="Titel" />
+            <input id="tpc" type="text" placeholder="Titel" />
             <textarea cols="50" rows="4" name="commentaar" placeholder="Tekst"></textarea>
             <button type="submit">Plaatsen</button> 
 </fieldset>
