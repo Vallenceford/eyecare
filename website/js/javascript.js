@@ -16,8 +16,6 @@ $('document').ready(function(e) {
 
     });
     
-    var options = { videoId: 'e4Is32W-ppk', start: 3 };
-	$('#vid').tubular(options);
 
 
 });

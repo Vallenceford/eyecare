@@ -20,7 +20,6 @@
     <link rel="icon" href="media/icon.png" />
 
     <script src="js/jquery-2.0.2.js"></script>
-    <script src="js/jquery.tubular.1.0.js"></script>
     <script src="js/javascript.js"></script>
 
     <noscript>
@@ -31,7 +30,7 @@
 
 <body>
     <header>
-    <div id="vid"></div>
+            <iframe src="http://www.youtube.com/v/nzCj0te8CjQ?loop=1&version=3&hd=1&amp;modestbranding=0&autoplay=1&controls=0&disablekb=1&showinfo=0&rel=0&playlist=nzCj0te8CjQ" frameborder="0"></iframe>
     <a href="index.php">
         <img src="media/svg/logoOogpuntTrans.svg" alt="Eye care foundation">
     </a>
