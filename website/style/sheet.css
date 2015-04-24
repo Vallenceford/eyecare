@@ -120,7 +120,7 @@ button {
 }
 /*------- topic lijst  ---------*/
 
-ul#lijst li:first-child {
+ul#lijst>li:first-child {
     background: #FAF994;
     font-weight: bold;
     font-size:1em;
@@ -148,12 +148,13 @@ ul#lijst li span {
     padding: 1em;
     font-size: 0.8em;
     background: #FAF994;
-    block:inline-block;
+    display:inline-block;
     width: 150%;
     max-width: calc(19vw - 1em);
     margin: 1em 0 1em 1em;
     font-weight: bold;
     color: brown;
+    text-align: center;
     margin-top: 0.3em;
 }
 @media (max-width: 800px) {

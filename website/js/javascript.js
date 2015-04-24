@@ -23,8 +23,9 @@ $('document').ready(function(e) {
 
 
 function zoeken(){
-    $("#zoek").css("display", "none");
-    $("#fZoek").css("display", "block");
+    console.log("zoek dan!");
+    $(".zoek").css("display", "none");
+    $(".fZoek").css("display", "block");
 
 
 };
