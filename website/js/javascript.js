@@ -19,3 +19,12 @@ $('document').ready(function(e) {
 
 
 });
+
+
+
+function zoeken(){
+    $("#zoek").css("display", "none");
+    $("#fZoek").css("display", "block");
+
+
+};
