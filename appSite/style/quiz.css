@@ -15,10 +15,9 @@ main section a[href$='quizNext.php'] {
     /*margin: 0 calc(auto - 3.5em);*/
     background-color: #d54833;
     color: white;
-    margin: 2em 2em 2em 0;
+    margin: 1em auto;
     padding: 1em;
     font-size: 1.3em;
-    margin:0 auto;
     font-weight: bold;
 }
 
@@ -29,6 +28,16 @@ main section a[href$='quizNext.php']:hover {
 main section a[href$='quizNext.php']:active {
     background-color: #ffd43f;
     transition: ease-in-out 0s;
+}
+
+main section img#eerst {
+    margin-top:1em;
+    text-align:center;
+}
+
+b {
+    font-weight: bold;
+    font-size:1.2em
 }
 
 main section section {

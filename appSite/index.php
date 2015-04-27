@@ -2,14 +2,14 @@
 
         <link rel="stylesheet" href="style/quiz.css" type="text/css" />
 		<h1>Doe mee met de quiz!</h1>
-		<p>
+		<p id="eerste">
 		  Kan jij jouw vrienden nog herkennen met een bepaalde oog ziekte?
-		  Test het me onze quiz! Behaal de hoogste score en kom in de leaderboards!
+		  <b>Test het me onze quiz!</b> Behaal de hoogste score en kom in de leaderboards!
 		</p>
 
 		<a href="quizNext.php">Start de quiz!</a>
 
-<img src="media/img/index.jpg" alt="plaatje">
+<img id="eerst" src="media/img/index.jpg" alt="plaatje">
 
 <!----
 

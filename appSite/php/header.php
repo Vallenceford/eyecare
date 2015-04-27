@@ -32,7 +32,7 @@
         <img src="media/img/logo.jpg" alt="Eye care foundation">
     </a>
         <nav>
-            <a href="quizstart.php">De quiz</a>
+            <a href="index.php">De quiz</a>
             <a href="info.php">Meer informatie</a>
         </nav>
     </header>
