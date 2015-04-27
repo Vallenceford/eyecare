@@ -4,7 +4,7 @@
 		<h1>Doe mee met de quiz!</h1>
 		<p id="eerste">
 		  Kan jij jouw vrienden nog herkennen met een bepaalde oog ziekte?
-		  <b>Test het me onze quiz!</b> Behaal de hoogste score en kom in de leaderboards!
+		  <b>Test het met onze quiz!</b> Behaal de hoogste score en kom in de leaderboards!
 		</p>
 
 		<a href="quizNext.php">Start de quiz!</a>
