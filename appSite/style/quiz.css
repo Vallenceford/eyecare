@@ -17,6 +17,9 @@ main section a[href$='quizNext.php'] {
     color: white;
     margin: 2em 2em 2em 0;
     padding: 1em;
+    font-size: 1.3em;
+    margin:0 auto;
+    font-weight: bold;
 }
 
 main section a[href$='quizNext.php']:hover {

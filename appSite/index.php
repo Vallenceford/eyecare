@@ -1,8 +1,19 @@
 <?php include 'php/header.php'; ?>
 
-        <link rel="stylesheet" href="style/index.css" type="text/css" />
+        <link rel="stylesheet" href="style/quiz.css" type="text/css" />
+		<h1>Doe mee met de quiz!</h1>
+		<p>
+		  Kan jij jouw vrienden nog herkennen met een bepaalde oog ziekte?
+		  Test het me onze quiz! Behaal de hoogste score en kom in de leaderboards!
+		</p>
 
+		<a href="quizNext.php">Start de quiz!</a>
 
+<img src="media/img/index.jpg" alt="plaatje">
+
+<!----
+
+<link rel="stylesheet" href="style/index.css" type="text/css" />
 
 <h1>Eye care foundation</h1>
             <p>
@@ -11,8 +22,7 @@ Welkom op de app van Eye Care Foundation. Wij helpen onnodige blindheid en slech
 
             </p>
 
-
-            <img src="media/img/index.jpg" alt="plaatje">
+------!>
 
             <?php include 'php/leaderboard.php'; ?>
 
