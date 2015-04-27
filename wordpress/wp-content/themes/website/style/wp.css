@@ -1,0 +1,18 @@
+p.logged-in-as,
+form#commentform p.comment-form-comment label[for="comment"],
+p.form-allowed-tags {
+    display: none;
+}
+
+form#commentform p.comment-form-comment textarea {
+    width: 100%;
+}
+
+p.form-submit input[name="submit"] {
+    padding: 0.3em;
+    margin: 0.3em;
+}
+
+iframe {
+    width: 100%;
+}

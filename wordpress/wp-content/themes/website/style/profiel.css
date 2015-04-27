@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*
+rood: 
+#d54833
+lichtrood: 
+#e37a6e
+geel:
+#ffd43f
+*/
+
+main>section>section {
+    /*    padding: 0 0 1em 0;*/
+    margin: 5em 0 0 0;
+    max-width: 800px;
+    display: flex;
+    margin-top: 10px;
+}
+main>section>section>div>img {
+    width: 100%;
+}
+main>section>section>div>a {
+    width: 100%;
+    color: #34609D;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin: 0.5em 0
+}
+main>section>section>div>a:hover {
+    text-decoration: underline;
+}
+main>section>section>div {
+    background-color: #f2e6b4;
+    flex: 1;
+    /*    min-width: 130px;*/
+}
+main>section>section>section {
+    /*    float: right;*/
+    /*    width: 66.66%;*/
+    background-color: #F1EDDC;
+    flex: 2;
+    align-self: stretch;
+    min-width: 240px;
+}
+main>section>section>section>h2 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+main>section>section>section>b {
+    /*    font-weight: bold;*/
+    font-family: 'header';
+    padding: 0 3.5em;
+    color: #838383;
+}
+main>section>section>section>b:after {
+    content: ":";
+}
+main>section>section>section>p {
+    margin: 0.4em 4em;
+    color: #929292;
+}
+@media (max-width: 500px) {
+    main>section>section>section,
+    main>section>section>div {
+        flex-direction: column;
+    }
+}
