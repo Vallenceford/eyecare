@@ -1,0 +1,124 @@
+/*   
+Theme Name: noeels thema
+Theme URI: localhost
+Description: geef gerust een 10!
+Author: Noeël Moeskops
+Author URI: www.noeel.nl
+Version: over 9000
+.
+General comments/License Statement if any.
+.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: none;
+}
+html, body {
+    margin: 0;
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 100%;
+    font-family: verdana;
+}
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin: 0;
+}
+h2 {
+    width: 100%;
+    padding: 10px 0 0;
+    text-align: center;
+}
+header {
+    width: 100%;
+    background-color: #d058ed;
+}
+footer {
+    background-color: #d058ed;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+ul ul {
+    display: none;
+    /*    margin: 1em 0 0 -56px;*/
+    
+    position: absolute;
+    width: 100%;
+}
+ul li:hover ul {
+    display: block;
+}
+li {
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    font-family: 'quicksand';
+    float: left;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1em;
+    box-sizing: border-box;
+    width: 20%;
+    margin: 0;
+}
+ul {
+    /*margin: 5% 0 20% -40px;*/
+    
+    width: 100%;
+    margin: 0 50% 0 0;
+}
+ul ul li {
+    float: none;
+    margin: 0px 0 0 -40px;
+}
+a:hover li {
+    background: rgba(255, 255, 255, 0.75);
+}
+a:active li {
+    background: white;
+    color: #c6baba;
+    font-weight: bold;
+}
+.content h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 1em;
+}
+.content p {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1em;
+}
+#reactie {
+    float: right;
+    width: 20%;
+}
+#widget {
+flex: 1;
+}
+#widget li {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    width: 100vw;
+    flex-flow: row wrap
+}
+
+#post {
+    flex: 2;
+}
