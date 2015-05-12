@@ -14,7 +14,7 @@
 
 
 
-        <a class="verder" href="2015/04/27/eyecare-foundation/">Lees verder &raquo;</a>
+        <a class="verder" href="2015/04/27/eye-care-foundation/">Lees verder &raquo;</a>
     </div>
 
     <ul class="reacties">

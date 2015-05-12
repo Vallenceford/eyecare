@@ -1,6 +1,7 @@
 <?php include 'php/header.php'; ?>
 
         <link rel="stylesheet" href="style/quiz.css" type="text/css" />
+        <link rel="stylesheet" href="style/index.css" type="text/css" />
 		<h1>Doe mee met de quiz!</h1>
 		<p id="eerste">
 		  Kan jij jouw vrienden nog herkennen met een bepaalde oog ziekte?

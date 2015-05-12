@@ -48,7 +48,7 @@
                 <section>
                     <a href="#">Like</a>
                     <a href="#">Deel</a>
-                    <a href="#">Doneer</a>
+                    <a href="https://eyecarefoundation.nl/helpen/eenmalig-doneren/">Doneer</a>
                 </section>
             </section>
         </nav>
